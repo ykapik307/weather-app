@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bg.jpg);
+    
+}
+.app-cont{
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 22vh;
+    justify-content: center;
+}
+.input-city{
+    width: 300px;
+    height: 40px;
+    font-family: 'Truculenta', sans-serif;
+    border:none;
+    outline: none;
+    font-size: medium;
+    font-weight: 800;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 16px 0  16px 0;
+    border-bottom: 3px solid #DF8E00;
+    color: #313131;
+    padding: 10px 15px;
+}
+.sub-button{
+    width: 80px;
+    height: 40px;
+    font-family: 'Truculenta', sans-serif;
+    font-size: medium;
+    border:none;
+    outline: none;
+    font-size: medium;
+    font-weight: 800;
+    background-color: #ffffff4d;
+    border-radius:5px;
+    border-bottom: 3px solid #DF8E00;
+    color: #313131;
+    padding: 5px;
+    margin: 0 0 0 25px;
+    transform: translateY(1px);
+    cursor: pointer;
+    
+}
+.container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.results{
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    /* justify-content: center; */
+    width: 420px;
+    height: 500px;
+    /* transform: translateX(560px); */
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+}
+
+.box{
+    font-weight: bold;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: 'Truculenta', sans-serif;
+}
+.namee{
+
+    font-size:40px;
+    
+}
+.cont{
+    font-size: 25px;
+   
+}
+.day{
+    font-family: 'Truculenta', sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+}
+.temp{
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+ 
+ 
+    font-family: 'Truculenta', sans-serif;
+}
+.descc{
+    font-size: xx-large;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: 'Truculenta', sans-serif;
+}
