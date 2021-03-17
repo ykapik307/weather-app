@@ -8,6 +8,7 @@ body{
     width: 100%;
     height: 100vh;
     background-image: url(./bg.jpg);
+    background-size: cover;
     
 }
 .app-cont{
@@ -110,3 +111,16 @@ body{
     justify-content: center;
     font-family: 'Truculenta', sans-serif;
 }
+
+@media screen and (max-width:500px) {
+   .input-city{
+       max-width: 180px;
+   }
+   
+  }
+  @media screen and (max-width:500px) {
+      .results{
+        max-width: 220px;
+        max-height: 350px;
+      }
+    }
